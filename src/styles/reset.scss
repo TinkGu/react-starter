@@ -1,0 +1,122 @@
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+input {
+  resize: none;
+  -webkit-appearance: none;
+}
+
+/* 取消链接高亮 */
+body,
+div,
+ul,
+li,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+input,
+textarea,
+select,
+p,
+dl,
+dt,
+dd,
+a,
+img,
+button,
+form,
+table,
+th,
+tr,
+td,
+tbody,
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* 设置HTML5元素为块 */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+*:focus {
+  outline: none;
+}
+
+em,
+i {
+  font-style: normal;
+}
+
+strong {
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* 禁用iPhone中Safari的字号自动调整 */
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+  height: 10px;
+  padding-top: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  height: 30px;
+  width: 5px;
+  border: none;
+  background: #ddd;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #bbb !important;
+}
+::-webkit-scrollbar-thumb:active {
+  background-color: #bbb !important;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+  border: none;
+  box-shadow: none;
+}

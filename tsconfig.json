@@ -1,0 +1,58 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "commonjs",
+    "target": "esnext",
+    "sourceMap": true,
+    "allowJs": true,
+    "jsx": "react",
+    "rootDir": ".",
+    "baseUrl": ".",
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "typeRoots": [
+      "./node_modules/@types",
+      "./types"
+    ],
+    "paths": {
+      "containers/*": [
+        "src/containers/*"
+      ],
+      "components/*": [
+        "src/components/*"
+      ],
+      "constants/*": [
+        "src/constants/*"
+      ],
+      "pages/*": [
+        "src/pages/*"
+      ],
+      "utils/*": [
+        "src/utils/*"
+      ],
+      "states/*": [
+        "src/states/*"
+      ],
+      "services/*": [
+        "src/services/*"
+      ],
+      "store/*": [
+        "src/store/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "include": [
+    "src",
+    "./types",
+    "src/states/.ts"
+  ]
+}

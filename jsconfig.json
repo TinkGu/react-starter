@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "paths": {
+      "pages/*": [
+        "src/pages/*"
+      ],
+      "store/*": [
+        "src/store/*"
+      ],
+      "containers/*": [
+        "src/containers/*"
+      ],
+      "components/*": [
+        "src/components/*"
+      ],
+      "constants/*": [
+        "src/constants/*"
+      ],
+      "images/*": [
+        "src/images/*"
+      ],
+      "states/*": [
+        "src/states/*"
+      ],
+      "utils/*": [
+        "src/utils/*"
+      ],
+      "services/*": [
+        "src/services/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build"
+  ],
+  "include": [
+    "src"
+  ]
+}
